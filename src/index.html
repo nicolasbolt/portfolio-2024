@@ -1,0 +1,263 @@
+<!-- TODO:
+1. make first page sticky
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="./resets.css" rel="stylesheet" />
+    <link href="./main.css" rel="stylesheet" />
+    <title>Nicolas Bolt</title>
+  </head>
+  <body>
+    <div class="container-constraint mx-auto w-full">
+      <!-- Start First Page -->
+      <div class="h-screen">
+        <div class="main-flex">
+          <div class="main-grid pt-5">
+            <div class="img-container">
+              <img src="./img/profile.jpeg" class="main-img" />
+            </div>
+            <div class="main-container">
+              <h1 class="main-heading-text">
+                Nicolas <span class="primary-color">Bolt</span>
+              </h1>
+              <h3 class="main-secondary-text">Software Engineer</h3>
+
+              <div>
+                <a
+                  class="primary-color primary-color-hover"
+                  href="https://www.linkedin.com/in/nicolas-bolt-59a523131/"
+                  ><ion-icon size="large" name="logo-linkedin"></ion-icon
+                ></a>
+                <a
+                  class="primary-color primary-color-hover"
+                  href="https://github.com/nicolasbolt"
+                  ><ion-icon size="large" name="logo-github"></ion-icon
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TODO Add in after more certs -->
+        <!-- <div class="badge-container">
+          <img src="./img/aws-certified-cloud-practitioner.png" />
+        </div> -->
+
+        <div class="about-me">
+          <div class="main-link">
+            <a href="#experience" class="card-header about-me-link">About Me</a>
+            <a href="#experience"
+              ><ion-icon size="large" name="chevron-down-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- End First Page -->
+    </div>
+
+    <div class="background-primary-color">
+      <div class="container-constraint mx-auto w-full section-padding">
+        <div id="experience">
+          <h3 class="section-header-white">Experience</h3>
+
+          <div class="card">
+            <div>
+              <h5 class="card-header">State Farm</h5>
+            </div>
+            <p class="card-subheader">Software Engineer</p>
+
+            <div class="card-divider"></div>
+            <p class="mt-2">October 2022 - Present</p>
+
+            <div class="skill-container">
+              <div class="skill">#Python</div>
+              <div class="skill ml-1">#Terraform</div>
+              <div class="skill ml-1">#AWS</div>
+            </div>
+            <ul>
+              <li class="my-4">
+                Maintained enterprise-level software written in Python, ensuring
+                its stability, performance, and scalability throughout its
+                lifecycle. Employed rigorous unit testing methodologies to
+                validate code integrity and improve overall code quality.
+              </li>
+              <li class="my-4">
+                Successfully migrated legacy code to AWS Lambda, SQS, and SNS
+                leveraging the power of serverless architecture to optimize
+                performance, scalability, and cost efficiency.
+              </li>
+              <li class="my-4">
+                Utilized Terraform to efficiently provision and manage AWS
+                infrastructure
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h5 class="card-header">myhELO</h5>
+            <div>
+              <p class="card-subheading">Software Engineer</p>
+              <div class="card-divider"></div>
+              <p class="mt-2">July 2020 - October 2022</p>
+
+              <div class="skill-container">
+                <div class="skill">#Javascript</div>
+                <div class="skill ml-1">#PHP</div>
+              </div>
+              <ul>
+                <li class="my-4">
+                  Developed innovative solutions leveraging JavaScript and PHP
+                  to enhance health outcomes. Utilized Git for efficient version
+                  control and seamless collaboration, ensuring effective code
+                  integration and streamlined development processes.
+                </li>
+                <li class="my-4">
+                  Implemented memoization techniques to optimize frontend
+                  performance, resulting in an improvement of 90% by
+                  strategically caching computed values and reducing redundant
+                  calculations.
+                </li>
+                <li class="my-4">
+                  Partnered closely with a graphic designer to gather
+                  comprehensive requirements and specifications for the
+                  development of a captivating public marketing website.
+                  Successfully translated design concepts into functional,
+                  user-friendly web experiences.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-header">Noblesville Schools</h5>
+            <div>
+              <p class="card-subheader">Technical Assistant</p>
+              <div class="card-divider"></div>
+              <p class="mt-2">July 2019 - July 2020</p>
+
+              <div class="skill-container">
+                <div class="skill">#Javascript</div>
+                <div class="skill ml-1">#Debugging</div>
+              </div>
+
+              <ul>
+                <li class="my-4">
+                  Proactively tackled and resolved complex technical challenges
+                  to support the staff effectively. Demonstrated a strong
+                  ability to troubleshoot issues, provide technical guidance,
+                  and ensure the smooth operation of systems and software
+                  utilized by the staff.
+                </li>
+                <li class="my-4">
+                  Managed the device inventory within the Mobile Device
+                  Management (MDM) system. Implemented comprehensive strategies
+                  for device provisioning and configuration.
+                </li>
+                <li class="my-4">
+                  Developed JavaScript-based forms to streamline and enhance the
+                  efficiency of daily workflows. By leveraging modern web
+                  technologies, I created intuitive and user-friendly forms that
+                  automated manual processes and reduced errors.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-constraint mx-auto w-full section-padding">
+      <h3 class="section-header-blue">Projects</h3>
+      <div class="card">
+        <h5 class="card-header">Data Structures in C++</h5>
+        <div>
+          <p class="card-subheader">2024</p>
+          <div class="card-divider"></div>
+          <div class="skill-container">
+            <div class="skill ml-1">#C++</div>
+
+            <div class="skill ml-1">#Data Structures</div>
+            <div class="skill ml-1">#Algorithms</div>
+          </div>
+
+          <p class="mt-2">todo info</p>
+
+          <button class="card-link">
+            <a href="#">TODO Github Link</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="background-primary-color">
+      <div class="container-constraint mx-auto w-full section-padding">
+        <h3 class="section-header-white">Certifications</h3>
+        <div class="card">
+          <h5 class="card-header">AWS Certified Cloud Practitioner</h5>
+          <div>
+            <p class="card-subheader">2024</p>
+            <div class="card-divider"></div>
+
+            <div class="skill-container">
+              <div class="skill">#AWS</div>
+            </div>
+
+            <p class="mt-2">
+              I developed a strong understanding of the various services on AWS
+              and the different types of EC2 instances and the use cases for
+              each. This has helped me develop a more broad understanding of the
+              technologies I work with on a daily basis.
+            </p>
+
+            <button class="card-link">
+              <a
+                href="https://www.credly.com/badges/a30da600-c2f9-45c2-8d69-3ce453229992/linked_in_profile"
+                >Certification Link</a
+              >
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h5 class="card-header">Programming Languages Part A</h5>
+          <div>
+            <p class="card-subheader">2024</p>
+            <div class="card-divider"></div>
+            <div class="skill-container">
+              <div class="skill">#Functional Programming</div>
+
+              <div class="skill ml-1">#Recursion</div>
+            </div>
+
+            <p class="mt-2">
+              I advanced my understanding of programming languages by
+              programming in a functional programming language. This taught me
+              concepts like pattern matching, higher order functions, and first
+              class functions. It has allowed me develop experience in a
+              programming paradigm that I haven't used professionally.
+            </p>
+
+            <button class="card-link">
+              <a
+                href="https://www.credly.com/badges/a30da600-c2f9-45c2-8d69-3ce453229992/linked_in_profile"
+                >TODO Certification Link</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
